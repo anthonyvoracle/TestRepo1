@@ -8,7 +8,7 @@ from fdk import response
 # --- OCI Authentication and Clients ---
 # Replace with your Compartment ID and other details
 COMPARTMENT_ID = "ocid1.compartment.oc1..aaaaaaaaqufgrkgzr4zb3dsu53b736mdlgixu33p7jx7yckglghxppfrui6a" ##YOUR_COMPARTMENT_OCID
-NOTIFICATION_TOPIC_OCID = "<YOUR_NOTIFICATION_TOPIC_OCID>"  # <-- Set your OCI Notification Topic OCID here
+NOTIFICATION_TOPIC_OCID = "ocid1.onstopic.oc1.iad.amaaaaaaqfxjisqa5xkhvvhxupd7sc6lz6pwd4fua35uozy6qia5ajcqcypq"  # <-- Set your OCI Notification Topic OCID here
 LOW_CPU_THRESHOLD = 5  #Low CPU Utilization Threshold Value(Percentage)
 TIME_WINDOW_MINUTES = 1440  # Check CPU over the last 24 hours
 
